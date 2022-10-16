@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Select a Google Drive folder for extracted files</title><noscript><p><br/><br/>'Your browser must support javascript.'</p></noscript><script nonce="">var rawConfig = {"parent":"https://zipextractor.app/favicon.ico","userId":"113451870570620757741","email":"bastoslps5@gmail.com","token":"gzaa_IMBAAA.OWf8fz9QEC4KoCFCoGdNgg.-jwI3SOsD-eFOSZuaNlJ9Q","nav":"[[\"all\",null,{\"mode\":\"list\",\"mimeTypes\":\"application/vnd.google-apps.folder\",\"selectFolder\":true,\"includeFolders\":true}]]","hostId":"zipextractor.app","burl":"https://docs.google.com/picker/v2/","js":"PROD","origin":"https://zipextractor.app","title":"Select a Google Drive folder for extracted files","xtoken":"AL7Jy1xN4qtp5Pm3zkcaseBdiFoj5aoIRQ:1665785508481","euid":"ALnKIfx6l4NqhjF5CwAjgXb8reBCHupeg1X5DGKe7Uep-oUS5X7lcgSMzzvfPC9u2YejWEFxZnY-","obfuscatedGaiaId":"16612363994687272252","upp":"https://lh6.googleusercontent.com/-FykLifZ0b4U/AAAAAAAAAAI/AAAAAAAAAAA/5tdSNqhPDB4/photo.jpg","pimm":false,"ppms":true,"rpcService":"qp14s8d4u8xu","rpcToken":"uol5hpuyikr4","rupioUrl":"","sid":"cb3ebc5a-8936-4d4a-9a61-510de0b3cf70","uploadConfigs":"{\"docs\":{\"mechanisms\":[\"XHR\",\"HTML_FORM\"],\"det\":\"Oops, you dragged more than one file! \\u003cbr\\u003e You can only upload one file. Please try again.\",\"dzt\":\"Drag a file here\",\"dzat\":\"Or, if you prefer...\",\"selectLabel\":\"Select a file from your device\",\"uet\":\"There was an upload error.\",\"url\":\"/upload/resumableuploadsc\"}}","uriParams":{"app":"2","subapp":"5","developerKey":"AIzaSyBW4IYnFZLyPFFKtZ2qWJYTlURyyE-Vt_4","clientUser":"16612363994687272252"},"vg":"female","wcs":"picker/resources/2717341201-v3-web_camera.swf","rguc":false,"tdefmo":true,"esdr":true,"tdeemi":true,"pref":{},"oAuthToken":"ya29.a0Aa4xrXMNJGNCpUPAP9zkPT_bMIKQAKwkvXtz0YiFW2G0LUs6VMqnT2WGPr0ezc8uk0A9HQ8NJRn8cHOwbMDeQLYYkHxXzXvw06HEFR8j69jk7ucsXgZwzwwCRmgic23GCqY1M5Ju31BKzbA-cCAR6dsWZ2e7aCgYKATASARMSFQEjDvL96YPBtpUcheDmF7ohs9x4hA0163","etpc":false,"prefetchEnabled":true,"pp":"[]","thirdParty":true,"cac":false,"du":false,"ecc":false,"endv":true,"erd":false,"gdn":"Gmail","gpu":false,"ianu":false,"navHidden":true,"protocol":"gadgets","prefetchUriParams":{"hl":"en_US","oauth_token":"ya29.a0Aa4xrXMNJGNCpUPAP9zkPT_bMIKQAKwkvXtz0YiFW2G0LUs6VMqnT2WGPr0ezc8uk0A9HQ8NJRn8cHOwbMDeQLYYkHxXzXvw06HEFR8j69jk7ucsXgZwzwwCRmgic23GCqY1M5Ju31BKzbA-cCAR6dsWZ2e7aCgYKATASARMSFQEjDvL96YPBtpUcheDmF7ohs9x4hA0163","hostId":"zipextractor.app","xtoken":"AL7Jy1xN4qtp5Pm3zkcaseBdiFoj5aoIRQ:1665785508481"},"prefetchUriQuery":{"start":0,"numResults":50,"sort":3,"desc":true,"cursor":"","mine":2,"service":"docs","type":"EVERYTHING","options":{"notInFolder":true,"mimeTypes":"application/vnd.google-apps.folder","ff":true},"token":"gzaa_IMBAAA.OWf8fz9QEC4KoCFCoGdNgg.-jwI3SOsD-eFOSZuaNlJ9Q","version":4,"app":"2","subapp":"5","developerKey":"AIzaSyBW4IYnFZLyPFFKtZ2qWJYTlURyyE-Vt_4","clientUser":"16612363994687272252"},"hl":"en_US"}
+            Deferred = function(prefetchXhr) {
+              this.callback_ = null;
+              this.isCallbackCalled_ = false;
+              this.prefetchXhr_ = prefetchXhr;
+            };
+
+            Deferred.prototype.addCallback = function(callback) {
+              if (this.isCallbackCalled_) {
+                callback(this.prefetchXhr_.status, this.prefetchXhr_.responseText);
+              } else {
+                this.callback_ = callback;
+              }
+            };
+            Deferred.prototype.callback = function() {
+              if (!!this.callback_) {
+                this.callback_(this.prefetchXhr_.status, this.prefetchXhr_.responseText);
+              }
+              this.isCallbackCalled_ = true;
+              this.callback_ = null;
+            };
+          var prefetchUri = 'picker\/pvr?hl\x3den_US\x26oauth_token\x3dya29.a0Aa4xrXMNJGNCpUPAP9zkPT_bMIKQAKwkvXtz0YiFW2G0LUs6VMqnT2WGPr0ezc8uk0A9HQ8NJRn8cHOwbMDeQLYYkHxXzXvw06HEFR8j69jk7ucsXgZwzwwCRmgic23GCqY1M5Ju31BKzbA-cCAR6dsWZ2e7aCgYKATASARMSFQEjDvL96YPBtpUcheDmF7ohs9x4hA0163\x26hostId\x3dzipextractor.app\x26xtoken\x3dAL7Jy1xN4qtp5Pm3zkcaseBdiFoj5aoIRQ:1665785508481'; var prefetchQueryData = 'start\x3d0\x26numResults\x3d50\x26sort\x3d3\x26desc\x3dtrue\x26cursor\x26mine\x3d2\x26service\x3ddocs\x26type\x3dEVERYTHING\x26options\x3d%7B%22notInFolder%22:true,%22mimeTypes%22:%22application\/vnd.google-apps.folder%22,%22ff%22:true%7D\x26token\x3dgzaa_IMBAAA.OWf8fz9QEC4KoCFCoGdNgg.-jwI3SOsD-eFOSZuaNlJ9Q\x26version\x3d4\x26app\x3d2\x26subapp\x3d5\x26developerKey\x3dAIzaSyBW4IYnFZLyPFFKtZ2qWJYTlURyyE-Vt_4\x26clientUser\x3d16612363994687272252';
+            if (window.XMLHttpRequest) {
+              var RESPONSE_READY = 4;
+              var prefetchXhr = new XMLHttpRequest();
+              rawConfig['prefetchQueryRequest'] = new Deferred(prefetchXhr);
+              prefetchXhr.onreadystatechange = function() {
+                if (prefetchXhr.readyState == RESPONSE_READY) {
+                  rawConfig['prefetchQueryRequest'].callback();
+                }
+              }
+              prefetchXhr.open("POST", prefetchUri, true /* async */);
+              prefetchXhr.setRequestHeader("Content-Type",
+                  "application/x-www-form-urlencoded;charset=UTF-8");
+              prefetchXhr.send(prefetchQueryData);
+            }
+          </script><link rel="stylesheet" href="./841339253-picker_v2.css" nonce=""><style nonce="">@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu52xP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBhc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+</style><style nonce="" type="text/css">@-webkit-keyframes undefined {0% {background-position: 0 0;} 100% {background-position: -20px 0;}} .le-Yn-Xb .Xb-Yb-Q, .le-Yn-vi .Xb-Yb-Q, .le-Lf-bg-pf-Xb .Xb-Yb-Q, .le-vi-pe .Xb-Yb-Q, .Jf-bg-qb .Xb-Yb-Q {-webkit-animation-name: undefined; -moz-animation-name: undefined;}</style></head><body dir="ltr"><div class="picker-loadingstatusbox picker-loadingstatusbox-body"></div><div id="doclist"><div class="le-be-Kc le-yi le-ri-Jf Vd-Wd-td" guidedhelpid="ghid-pmc"><div class="le-be-Sg" style="display: none;"><div class="le-be-Sg le-Ki"></div></div><div id="docs-aria-speakable" class="le-lj" aria-live="assertive" role="region" aria-atomic="true"></div><div class="le-ui-Nf le-If-Nf"><div class="le-ui-hc le-If-pe" style="height: 20px;"><div id="picker:ht" class="le-If-tc" role="heading" aria-level="1">Select a Google Drive folder for extracted files</div><div class="le-If-db"><div role="button" class="a-b-c d-u d-u-K" tabindex="0" data-tooltip="Close" aria-label="Close" style="user-select: none;"><div class="le-Vj-db-ti"></div></div></div></div><div class="le-ui-eb le-If-eb" style="top: 54px;"><div><div class="le-ui-Nf le-vi-Nf"><div class="le-ui-eb le-vi-eb" style="bottom: 70px;"><div class="le-Jf-Nd-Sd Vd-Wd-td tg-ug"><div class="le-ob"><div class="le-sj"><div class="le-sj-Qc"><input type="text" class="le-sj-Qc-qb d-Rb" aria-label="Search terms" autocomplete="off" aria-autocomplete="list" aria-haspopup="true" style="width: 410px;"><div role="button" class="a-b-c d-u d-u-S" tabindex="0" data-tooltip="Search" aria-label="Search" style="user-select: none;"><img src="./search-black.png" class="d-u-x" style="width: 21px; height: 21px;"></div></div></div><div class="a-kb a-kb-dc le-nb-kb le-og-nb-kb" role="menu" aria-haspopup="true" style="user-select: none; display: none;"><div class="a-ub a-Cb-w a-Cb" role="menuitemradio" aria-checked="true" id=":b" style="user-select: none;"><div class="a-ub-eb" style="user-select: none;"><div class="a-ub-T" style="user-select: none;"></div>Last modified</div></div><div class="a-ub" role="menuitem" id=":c" style="user-select: none;"><div class="a-ub-eb" style="user-select: none;">Last modified by me</div></div><div class="a-ub" role="menuitem" id=":d" style="user-select: none;"><div class="a-ub-eb" style="user-select: none;">Last opened by me</div></div><div class="a-ub" role="menuitem" id=":e" style="user-select: none;"><div class="a-ub-eb" style="user-select: none;">Name</div></div></div><div class="a-b-c a-K-kb-u le-Il-kb-u" role="button" data-tooltip="Sort options" aria-label="Sort options" aria-expanded="false" tabindex="0" aria-haspopup="true" style="user-select: none;"><div class="a-b-c a-K-kb-u-mb"><div class="le-hj-og le-Il-kb-u-eb"></div></div><div class="a-b-c a-K-kb-u-nb" aria-hidden="true">&nbsp;</div></div></div><div class="le-eb-Kc"><div class="le-mj-qi" role="status" aria-live="assertive" style="">No documents.</div></div></div><div role="status" aria-live="polite"><div class="le-Ui" aria-label="Loading data" style="display: none;"><div class="d-e"><div></div><div class="d-e-f" style="opacity: 0;"></div></div></div></div></div><div class="le-ui-ic le-vi-pe" style="height: 69px;"><div class="le-vi-Bi-Ge"><div><div role="button" class="a-b-c d-u d-u-F d-u-D" id="picker:ap:0" guidedhelpid="ghid-psc" aria-disabled="true" style="user-select: none;">Select</div><div role="button" class="a-b-c d-u d-u-S" tabindex="0" id="picker:ap:1" style="user-select: none;">Cancel</div></div></div><div class="le-vi-Pi-Nb" role="status" aria-live="polite" style="display: none;"></div></div></div></div></div></div></div></div><script src="./3408124622-picker_modularized_opc.js.baixados" nonce=""></script><script nonce="">var pickerApp; var moduleDeps = {"opc":[],"opd":["opc"],"opdr":["opc"],"opl":["opc"],"opm":["opc"],"opmd":["opc"],"opp":["opc"],"oppe":["opc"],"opr":["opc"],"opu":["opc"],"opv":["opc"],"oppu":["opp","opu"]}; var moduleUris = {"opr":["https://docs.google.com/picker/static/resources/client/js/2574829080-picker_modularized_opr.js"],"opd":["https://docs.google.com/picker/static/resources/client/js/1775914067-picker_modularized_opd.js"],"oppe":["https://docs.google.com/picker/static/resources/client/js/1350476128-picker_modularized_oppe.js"],"oppu":["https://docs.google.com/picker/static/resources/client/js/619180019-picker_modularized_oppu.js"],"opc":["https://docs.google.com/picker/static/resources/client/js/3408124622-picker_modularized_opc.js"],"opv":["https://docs.google.com/picker/static/resources/client/js/2280788220-picker_modularized_opv.js"],"opu":["https://docs.google.com/picker/static/resources/client/js/121791273-picker_modularized_opu.js"],"opl":["https://docs.google.com/picker/static/resources/client/js/1830832002-picker_modularized_opl.js"],"opdr":["https://docs.google.com/picker/static/resources/client/js/2223942023-picker_modularized_opdr.js"],"opmd":["https://docs.google.com/picker/static/resources/client/js/950899930-picker_modularized_opmd.js"],"opm":["https://docs.google.com/picker/static/resources/client/js/2176392532-picker_modularized_opm.js"],"opp":["https://docs.google.com/picker/static/resources/client/js/3028104151-picker_modularized_opp.js"]}; initModules( moduleDeps, moduleUris, false , 'opc'); document.addEventListener('DOMContentLoaded', function () {rawConfig['element'] = document.getElementById('doclist'); rawConfig['loadingStatusElement'] = document.body; pickerApp = _createPicker(rawConfig); pickerApp.initializeFromServer(rawConfig);}); document.addEventListener('unload', function () {if (pickerApp) {pickerApp.dispose(); pickerApp = null;}});</script><script src="./rpc.js.baixados" nonce="" type="text/javascript"></script><div id="goog-lr-9" aria-live="assertive" aria-atomic="true" style="position: absolute; top: -1000px; height: 1px; overflow: hidden;">Select a Google Drive folder for extracted files</div><div class="Nd-hh-null-Rg-rh"><img aria-hidden="true" src="./cleardot.gif"></div></body></html>

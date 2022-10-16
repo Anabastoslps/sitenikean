@@ -1,0 +1,48 @@
+*{
+margin:0;
+padding:0;
+}
+
+.cabecalho{
+width: 100%;
+height: 90px;
+background-color: black;
+}
+
+.img{
+width: 100px;
+height:80px;
+left: 30px;
+top: 20px;
+bottom:0;
+right: 0;
+}
+
+.rodape{
+width:100%;
+height: 350px;
+background-color: white;
+}
+
+.text{
+color: rgb(237, 204, 209); 
+position: relative;  
+}
+
+.btn{
+position: absolute;
+color:black;
+text-align: center;
+width: 50px;
+height: 30px;
+padding: 10px 8px;
+background: white;
+border-radius: 5px;
+user-select: none;
+cursor: pointer;
+}
+
+.vd{
+width: 500 px;
+height: 350px;
+}
